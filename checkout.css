@@ -1,0 +1,87 @@
+* ::before ::after {
+    box-sizing: border-box;
+}
+body{
+    margin: 2em;
+    background-color: #16202c;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    color: #fcfcfc;
+}
+.h3{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 3em;
+}
+.p1{
+    text-align: center;
+
+}
+a{
+    height: 0.8em;
+    width: 0.8em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.https{
+    text-align: center;
+    font-weight: 900;
+font-size: 0.9em;
+}
+.https span{
+    color: green;
+}
+.confirm{
+    background-color: #23313c;
+    height: 50%;
+    box-shadow: 4px 4px 8px black;
+padding: 2em;
+}
+.confirm p{
+    font-size: 1.4em;
+    line-height: 1.3em;
+    text-align: center;
+}
+.confirm img{
+    object-fit:contain;
+    height: 3em;
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+
+}
+.back__icon{
+   margin-top: 0%;
+   background-color: lightseagreen;
+   font-size: 1.6em;
+}
+.copy{
+    font-size: 2.3em;
+    line-height: 0.9em;
+    display: block;
+}
+
+
+@media screen and (min-width:900px){
+.h3{
+    font-size: 3em;
+    margin-top: 1em;
+}
+.confirm{
+    font-size: 1.5em;
+}
+.confirm p{
+    line-height: 1.7em;
+    color: green;
+}
+
+
+}
+
+
+
+
+
+
+
+

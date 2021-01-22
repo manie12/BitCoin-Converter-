@@ -1,0 +1,13 @@
+* ::before ::after{
+    box-sizing: border-box;
+}
+body{
+
+    margin: 2em;
+    background-color: #fcfcfc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display: grid;
+    gap: 1em;
+}

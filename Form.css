@@ -1,0 +1,97 @@
+* ::after ::before{
+    box-sizing: border-box;
+}
+body{
+    background-color: #16202c;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em;
+    line-height: 2em;
+    color: #fcfcfc;
+}
+.trans{
+    font-size: 2em;
+    text-align: center;
+}
+input{
+    width: 100%;
+    border-style: dotted;
+    border-width: 0.2em;
+    background-color: yellow;
+    font-size: 1.4em;
+}
+input:focus{
+border-style: dotted;
+}
+.funds{
+font-size: 1.6em;
+text-align: center;
+font-weight: 700;
+}
+.mond{
+    height: 5em;
+    text-align: center;
+    width: 100%;
+    background-position: center;
+    object-fit: contain;
+}
+.wait{
+    color: rgb(223, 6, 6);
+    font-size: 2em;
+    text-align: center;
+}
+div{
+    background-color: #23313c;
+    box-shadow: 4px 4px 8px black;
+padding: 1em;
+
+}
+.back{
+    margin-top: 0%;
+   background-color: lightseagreen;
+   font-size: 1.6em;
+}
+
+.copy1{
+    font-size:0.7em;
+    line-height: 0.9em;
+    display: block;
+    text-align: center;
+    color: #fcfcfc;
+
+
+}
+.copy{
+    display: block;
+    background-color: green;
+    text-align: center;
+    margin: 1em auto;
+    color: #fcfcfc;
+
+
+}
+@media screen and (min-width:900px){
+    input:value{
+        font-size: 2em;
+        line-height: 2em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

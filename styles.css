@@ -1,0 +1,359 @@
+* ::after ::before{
+    box-sizing: border-box;
+}
+
+p nav ul li h3 h2 h1 {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    padding: 0.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #16202c;
+    color:#fcfcfc;
+}
+.one {
+    margin: 0% auto;
+    padding: 2em;
+    text-align:center;
+    
+}
+.one h1{
+    font-family: cursive;
+}
+
+.h3{
+    font-size: 2em;
+    font-weight: 600;
+    background-color: #23313c;
+    padding: .4em;
+    box-shadow: 4px 4px 8px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.p1{
+    border-bottom: solid;
+    padding: .3em;
+    border-width: .1em;
+    border-color: #23313c;
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin: 2em auto;
+
+}
+.uk{
+    background-color: #23313c;
+    padding: .4em;
+    box-shadow: 4px 4px 8px  black;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.uk img{
+    width: 100%;
+}
+.uk1{
+    
+    
+    background-color: #23313c;
+    padding: .4em;
+    box-shadow: 4px 4px 8px black;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.two{
+    margin: 0em;
+    padding: 0em;
+    color: black;
+
+}
+.bitcash{
+    background-color: #23313c;
+}
+ form{
+    margin: 0 auto;
+    height: 18em;
+    display: block;
+    width: 90%;
+    text-align: center;
+    padding: 1em;
+    background-color:#23313c;
+    color: #fcfcfc;
+    box-shadow: 4px 4px 8px #0f1111;
+ }
+ .bitcash img{
+     margin: 0% auto;
+     height: 2.3em;
+ }
+ .bitcash p{
+     color: #fcfcfc;
+ }
+ input{
+     display: block;
+     text-align: center;
+     width: 90%;
+     margin:  1em ;
+     border: none;
+     border-radius: 0.4em;
+     padding: 0.27em;
+     box-shadow:  4px 4px 8px rgb(31, 30, 30);
+     color: rgb(15, 15, 15);
+ } 
+ a{
+     text-decoration: none;
+ }
+ button{
+     display: block;
+     margin: 0em auto;
+     color: black;
+     width: 100%;
+     box-shadow:  3px 3px 5px rgb(31, 30, 30);
+
+     background-color: #ededed;
+ }
+ ::-webkit-input-placeholder{
+     color: rgb(15, 15, 15);
+ }
+ :-ms-input-placeholder{
+    color:#111111;
+
+ }
+ input[type="number"]{
+     border: none;
+ }
+ .eth{
+     margin-top: 2em;
+ }
+
+.bitcash{
+    background-color: #23313c;
+    margin: 2em auto;
+    width: 70%;
+    padding: 1em;
+    box-shadow: 4px 4px 8px black;
+
+}
+.min{
+    text-align: center;
+    color: red;
+}
+.three{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: #23313c;
+    font-size: .8em;
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    border-bottom: solid;
+border-width: thin;
+}
+nav ul{
+    list-style: none;
+    margin: 0em;
+    padding: 0em;
+    width: 100%;
+    text-align: center;
+    font-size: .7em;
+}
+
+.processor{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    border-bottom: solid;
+    border-width: 0.0001em;
+    font-size: .7em;
+    text-align: center;
+    border-color: #fcfcfc;
+}
+.processor img{
+
+    height: 1.6em;
+    width: 1.6em;
+    justify-self: center;
+}
+.green{
+    color: #028f47;
+}
+.four{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 1em auto;
+    text-align: center;
+    background-color: #16202c;
+    gap: 4em;
+
+}
+.four img{
+    margin: 0% auto;
+    height: 2.3em;
+}
+
+.fast{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2em;
+    border-bottom: solid;
+    border-width: thick ;
+    border-color: black;
+
+
+}.visits{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1em;
+    color: A66641;
+    border-bottom: solid;
+    border-width: thick ;
+    border-color: #ededed;
+    font-size: 2em;
+    padding: 0.6em;
+
+}
+.visits h3{
+    color: #A66641;
+    border-bottom: solid;
+    border-width: thin ;
+    border-color: #ededed;
+}
+
+@media screen and (min-width:900px){
+.one h1{
+    font-size:4em;
+}
+.one h3{
+font-size: 5em;
+
+}
+.p1{
+    font-size: 3em;
+}
+.uk{
+    font-size: 1em;
+}
+.uk1{
+    font-size: 1em;
+    width: 70%;
+    line-height: 2em;
+    margin: 0% auto;
+}
+.bitcash{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 0%;
+}
+
+.bitcash p{
+    color: #fcfcfc;
+    font-size: 1em;
+}
+.eth{
+margin-top: 8em;
+}
+.form1{
+    width: 70%;
+    margin-top: 0%;
+    
+}
+.form2{
+    margin-top: 0.2em;
+}
+
+input{
+    margin-bottom: .2em;
+    height: 2em;
+}
+label{
+    font-size: 1em;
+}
+::-webkit-input-placeholder{
+    color: rgb(15, 15, 15);
+    font-size: 1em;
+}
+img{
+    display: block;
+    justify-content: center;
+}
+a{
+    margin: 0%;
+    padding: 0%;
+}
+button{
+    margin-top: -2em;
+display: inline-block;
+height: 2em;
+width: 20%;
+margin-left: 20em;
+}
+.min{
+    font-size: 1em;
+    margin-top: 10em;
+}
+.min h2 p{
+color: #acb2b8;
+
+}
+.email {
+    text-decoration: none;
+    list-style: none;
+    color: green;
+}
+.email a{
+    text-decoration:none;
+    list-style: none;
+color: green;
+}
+.three{
+    width: 50%;
+    margin: 0% auto;
+    font-size: .8em;
+}
+
+.four{
+    font-size: 1.4em;
+    line-height: 1.7em;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
