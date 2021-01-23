@@ -11,6 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #16202c;
     color:#fcfcfc;
+    position: relative;
 }
 .one {
     margin: 0% auto;
@@ -18,6 +19,26 @@ body {
     text-align:center;
     
 }
+.one > img{
+    height: 1.4em;
+    width: 1.4em;
+display: block;
+text-align: right;
+margin-right: 100%;
+}
+.menu2{
+display: block;
+margin-bottom: 2em;
+color: #fcfcfc;
+line-height: 1.4em;
+position: absolute;
+z-index: 40;
+width: 50%;
+}
+.menubar{
+    display: none;
+    }
+    
 .one h1{
     font-family: cursive;
 }
@@ -139,7 +160,7 @@ body {
 }
 .min{
     text-align: center;
-    color: red;
+    color:#acb2b8;
 }
 .three{
     display: grid;
@@ -286,11 +307,9 @@ a{
     padding: 0%;
 }
 button{
-    margin-top: -2em;
-display: inline-block;
+display: block;
 height: 2em;
 width: 20%;
-margin-left: 20em;
 }
 .min{
     font-size: 1em;

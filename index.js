@@ -1,5 +1,12 @@
+import { button } from 'material-ui/core'
 const BITCOIN = document.querySelector(".form1");
 const BITCOIN1 = document.querySelector(".form2");
+const button = document.querySelector(".button1");
+const menu = document.querySelector(".menubar");
+const menu1 = document.querySelector(".menu1");
+const menu2 = document.querySelector(".menu2");
+const menu3 = document.querySelector('.menu3')
+
 
 
 BITCOIN.addEventListener('click', (e) => {
@@ -39,11 +46,19 @@ BITCOIN1.addEventListener('click', (e) => {
 
 });
 
-//database
+
+button.addEventListener('click', () => {
+    window.location.href = "./checkout.html"
+});
 
 
+menu1.addEventListener('click', () => {
+    menu.classList.remove('menubar');
+});
 
-
+menu3.addEventListener('click', () => {
+    menu1.classList.add('menubar')
+})
 
 
 
