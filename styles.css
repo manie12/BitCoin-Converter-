@@ -1,7 +1,9 @@
 * ::after ::before{
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 p nav ul li h3 h2 h1 {
     margin: 0%;
     padding: 0%;
@@ -21,15 +23,28 @@ body {
 }
 .one > div{
     justify-content: center;
+    
+    
 }
-.one > div >img{
+.one__header{
+    align-self: flex-start;
+}
+.menu10{
     height: 1.4em;
     width: 1.4em;
-display: block;
-text-align: right;
-margin-right: 100%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    justify-self: flex-start;
+    justify-content: start;
+    justify-items: start;
+    text-align: start;
+    margin-left: 0%;
+    
+    
 }
-.menu2{
+
+.menu2 {
 display: block;
 margin-bottom: 2em;
 color: #fcfcfc;
@@ -37,11 +52,31 @@ line-height: 1.4em;
 position: absolute;
 z-index: 40;
 width: 50%;
+top: 44px;
+left: 40px;
+background-color: #111111;
+height: 100%;
+opacity: 0.9;
+
 }
-.menubar{
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #fcfcfc;
+}
+ .menu3{
+    height: 1.8em;
+    width: 1.8em;
+display: block;
+text-align: right;
+margin-right: 100%;
+ }  
+
+   
+ .menubar{
     display: none;
     }
-    
+
 .one h1{
     font-family: cursive;
 }
@@ -71,14 +106,18 @@ width: 50%;
     background-color: #23313c;
     padding: .4em;
     box-shadow: 4px 4px 8px  black;
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+    height: 20%;
+    padding: 0%;
+    margin: 0%;
+    height: 5em;
 }
-.uk img{
+.uk4{
     width: 100%;
-    
+height: 100%;
+display: block;
+object-fit: contain;
 }
+
 .uk1{
     
     
@@ -238,8 +277,12 @@ nav ul{
     border-bottom: solid;
     border-width: thick ;
     border-color: #ededed;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 0.6em;
+    background-color: #A66641;
+    color: #acb2b8;
+    margin-bottom: 1em;
+    opacity: .6;
 
 }
 .visits h3{
@@ -345,17 +388,6 @@ color: green;
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
